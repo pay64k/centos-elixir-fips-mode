@@ -5,7 +5,7 @@ RUN yum -y install epel-release \
     && yum -y install gcc gcc-c++ glibc-devel make ncurses-devel openssl-devel autoconf
 
 ENV ERLANG_VERSION=21.1.3 \
-    ELIXIR_VERSION="v1.6.5" \
+    ELIXIR_VERSION="v1.8.0" \
     LANG=en_US.UTF-8
 
 WORKDIR /tmp/erlang-build
